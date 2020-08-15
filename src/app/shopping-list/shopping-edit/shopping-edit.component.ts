@@ -12,7 +12,7 @@ export class ShoppingEditComponent implements OnInit {
   // @Output() itemAdded = new EventEmitter<Ingredient>();
   // @ViewChild('name') nameInput: ElementRef;
   // @ViewChild('amount') amount: ElementRef;
-  @ViewChild('fd', { static: false }) shoppingListForm: NgForm;
+  @ViewChild('fd') shoppingListForm: NgForm;
   ingredients: any[] = [];
   ingredient: any = {};
   editMode = false;
